@@ -1,0 +1,27 @@
+{
+  "name": "fox-game-project",
+  "version": "1.0.0",
+  "description": "a digital pet game",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "test": "jest"
+  },
+  "author": "Brian Holt <btholt+foxgame@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.3.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.4"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
+}

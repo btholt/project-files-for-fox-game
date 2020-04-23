@@ -1,0 +1,15 @@
+{
+  "name": "fox-game-project",
+  "version": "1.0.0",
+  "description": "a digital pet game",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": ""
+  },
+  "author": "Brian Holt <btholt+foxgame@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
