@@ -1,4 +1,5 @@
 import { modFox, modScene, togglePoopBag } from "./ui";
+import { RAIN_CHANCE, SCENES } from "./constants";
 
 const gameState = {
   current: "INIT",
@@ -23,7 +24,8 @@ const gameState = {
     this.current = "IDLING";
     this.wakeTime = -1;
     modFox("idling");
-    modScene(Math.random() > 0.2 ? "day" : "rain");
+    this.scene = Math.random() > RAIN_CHANCE ? 0 : 1;
+    modScene(SCENES[this.scene]);
   },
   handleUserAction(icon) {
     // can't do actions while in these states
