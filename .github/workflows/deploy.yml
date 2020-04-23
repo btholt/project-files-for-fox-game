@@ -1,0 +1,22 @@
+
+name: Deploy Built Site to Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: npm install and build
+        working-directory: code-complete-game
+        run: |
+          npm install
+          npm run build
+      - name: Deploy site to gh-pages branch
+        uses: acrazy-max/ghaction-github-pages@v1.4.0
+        with:
+          build_dir: code-complete-game/dist
