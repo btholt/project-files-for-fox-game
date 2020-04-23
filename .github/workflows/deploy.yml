@@ -17,6 +17,6 @@ jobs:
           npm install
           npm run build
       - name: Deploy site to gh-pages branch
-        uses: acrazy-max/ghaction-github-pages@v1.4.0
+        uses: crazy-max/ghaction-github-pages@v1.4.0
         with:
           build_dir: code-complete-game/dist
