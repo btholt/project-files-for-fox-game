@@ -107,3 +107,47 @@ body {
 .modal-inner:empty {
   display: none;
 }
+
+.fox {
+  position: absolute;
+  top: 336px;
+  left: 285px;
+  overflow: hidden;
+}
+
+.fox-pooping {
+  top: 319px;
+  left: 159px;
+}
+
+.fox-celebrate {
+  top: 290px;
+  left: 290px;
+}
+
+.fox-rain {
+  top: 362px;
+}
+
+.fox-hungry {
+  top: 362px;
+}
+
+.fox-eating {
+  top: 362px;
+}
+
+.fox-egg {
+  top: 289px;
+  left: 248px;
+}
+
+.fox-sleep {
+  top: 351px;
+  left: 445px;
+}
+
+.fox-dead {
+  top: 380px;
+  left: 243px;
+}
