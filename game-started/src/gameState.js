@@ -1,4 +1,4 @@
-import { modFox, modScene, togglePoopBag } from "./ui";
+import { modFox, modScene } from "./ui";
 import { RAIN_CHANCE, SCENES } from "./constants";
 
 const gameState = {
@@ -68,4 +68,5 @@ const gameState = {
 };
 
 export const handleUserAction = gameState.handleUserAction.bind(gameState);
+
 export default gameState;
