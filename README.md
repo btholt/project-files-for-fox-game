@@ -8,9 +8,8 @@ Issues are turned off on this repo. If you have issues, please report them in th
 
 Some students rewrote the game using different frameworks or languages.
 
-[Fox Game, React version](https://github.com/LaasriNadia/fox_app) courtesy of Nadia Laasri
-[Fox Game, TypeScript version](https://github.com/BrkCoder/fox-game/tree/typescript-game-version) courtesy of Georgy Bunin
-[Fox Game, Pure JavaScript version, with no dependencies](https://github.com/BrkCoder/fox-game) courtesy of Georgy Bunin
+_[Fox Game, React version](https://github.com/LaasriNadia/fox_app) courtesy of Nadia Laasri
+_[Fox Game, TypeScript version](https://github.com/BrkCoder/fox-game/tree/typescript-game-version) courtesy of Georgy Bunin \*[Fox Game, Pure JavaScript version, with no dependencies](https://github.com/BrkCoder/fox-game) courtesy of Georgy Bunin
 
 ## License
 
