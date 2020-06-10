@@ -4,6 +4,16 @@ Hello! These are the various steps for the [fox game project][site] as outlined 
 
 Issues are turned off on this repo. If you have issues, please report them in the other repo. PRs are welcome on this repo if you find mistakes. Thanks!
 
+## Versions
+
+Some students rewrote the game using different frameworks or languages.
+
+- [Fox Game, React version](https://github.com/LaasriNadia/fox_app) courtesy of Nadia Laasri
+
+- [Fox Game, TypeScript version](https://github.com/BrkCoder/fox-game/tree/typescript-game-version) courtesy of Georgy Bunin
+
+- [Fox Game, Pure JavaScript version, with no dependencies](https://github.com/BrkCoder/fox-game) courtesy of Georgy Bunin
+
 ## License
 
 The _code_ written here is licensed under [Apache 2.0][apache]. The written content and lessons are licensed under [CC BY-NC 4.0][cc].
